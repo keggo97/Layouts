@@ -19,7 +19,8 @@ int c=0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.crazy_layout);
+/*
         btn1=findViewById(R.id.btn1);
         t1=findViewById(R.id.tw1);
 
@@ -50,14 +51,14 @@ int c=0;
 
                 btn1.setLayoutParams(lp);
             }
+            /* yeah bby
 
             @Override
             public void onFinish() {
                 Toast.makeText(MainActivity.this, "se acabo", Toast.LENGTH_LONG);
             }
         }.start();
-
-
+*/
 
 
     }
